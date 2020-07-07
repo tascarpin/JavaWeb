@@ -9,5 +9,5 @@
 		pattern="yyyy-MM-dd" var="parsedDate" /> 
 	<fmt:formatDate value="${parsedDate}" type="date" pattern="dd/MM/yyyy" />
 </td>
-<td><a href="mostraTarefa4?id=${tarefa.id }">Alterar</a></td>
-<td><a href="removeTarefa4?id=${tarefa.id }">Remover</a></td>
+<td><a href="mostraTarefa5?id=${tarefa.id }">Alterar</a></td>
+<td><a href="removeTarefa5?id=${tarefa.id }">Remover</a></td>
